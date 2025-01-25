@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+header section ul{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+}
+.a img{
+    height: 2.2rem;
+}
+header section ul li{
+    padding: 0.3rem;
+    list-style: none;
+}
+header section ul li img{
+    height: 2rem;
+    pointer-events: none;
+}
+.one:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .logo img{
+    margin-top: -5vh;
+    height: 14rem;
+    pointer-events: none;
+}
+main section ul{
+    list-style: none;
+    display: flex;
+    padding: 0.5rem 0.8rem 0.2rem 0.8rem;
+    border: 1px solid black;
+    border-radius: 1.5rem
+}
+main section ul img{
+    height: 1.5rem;
+    pointer-events: none;
+}
+.b img{
+    height: 2rem;
+}
+main section ul input{
+    border: none;
+    width: 29rem;
+    outline: none;
+}
+main section button{
+    margin-top: 4vh;
+    padding: 5px;
+    margin-left: 10px;
+}
+main section p{
+    margin-top: 2vh;
+    font-size: 1rem;
+}
+main section span{
+    color: blue;
+}
+footer{
+    background: #f2f2f2;
+    padding: 0.0.1rem;
+}
+footer p{
+    margin-left: 0.64rem;
+    margin-top: 9.5%;
+    padding: 0.5rem;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+footer section ul{
+    display: flex;
+    margin-left: 10px;
+}
+footer section ul li{
+    list-style: none;
+    margin-right: 20px;
+}
